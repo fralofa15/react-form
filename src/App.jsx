@@ -1,7 +1,11 @@
 import Article from "./components/article";
+import Form from "./components/form"
 function App() {
-    return(
-        <Article/>
+    return (
+        <>
+            <Form />
+            <Article />
+        </>
     );
 }
 
